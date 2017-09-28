@@ -7,9 +7,10 @@
 
 body {
   width: 930px;
+  margin: 0 auto;
 }
 
-header {
+#global_head {
   /*background-image: url("images/header-img.jpg");*/
   background-color: #f3f3f3;
   width: 100%;
@@ -21,32 +22,31 @@ nav {
 }
 
 section {
-  width: 65%;
+  width: 64%;
   float: left;
+  background-color: #8ee;
+  margin: 0.5%;
 }
 
 aside {
-  width: 35%;
+  width: 34%;
   float: left;
-  background-color: #676;
+  background-color: #fdd;
+  margin: 0.5%
 }
 
 aside article {
   border: 1px solid black;
 }
 
-main header {
+#local_header {
   background-color: #1ee;
-}
-
-#breaking-news {
-  background-color: #8ee;
 }
 
 footer {
   clear: both;
-  background-color: black;
-  background: white;
+  color: #333;
+  font-size: 18px;
 }
 
 article img {
