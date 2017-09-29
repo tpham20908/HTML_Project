@@ -93,3 +93,7 @@ article div {
   width: 58%;
   display: inline-block;
 }
+
+span {
+  vertical-align: center;
+}
