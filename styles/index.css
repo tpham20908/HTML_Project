@@ -37,7 +37,7 @@ body {
 
 #topnav li a {
   display: block;
-  color: white;
+  color: #442;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -87,8 +87,4 @@ article img {
 article div {
   width: 58%;
   display: inline-block;
-}
-
-span {
-  vertical-align: center;
 }
