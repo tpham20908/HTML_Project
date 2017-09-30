@@ -8,6 +8,7 @@
 body {
   width: 930px;
   margin: 12px auto;
+  background-image: url("../images/background.jpg");
 }
 
 #topHeader {
@@ -26,7 +27,8 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #68777e;
+  /*background-color: #68777e;*/
+  background-image: url("../images/background2.jpg");
 }
 
 #topnav li {
@@ -44,44 +46,37 @@ body {
 }
 
 #topnav a.topa:hover:not(.active) {
-  background-color: #36647b;
+  background-color: #dee;
 }
 
 .active {
-  background-color:#388cb8;
-}
-
-nav {
-  background-color: #d5d5d5;
-  width: 100%
+  background-color:#dee;
 }
 
 section {
   width: 64%;
   float: left;
-  background-color: #8ee;
   margin: 0.5%;
 }
 
 aside {
   width: 34%;
   float: left;
-  background-color: #fdd;
   margin: 0.5%
 }
 
 aside article {
-  border: 1px solid black;
-}
-
-#local_header {
-  background-color: #1ee;
+  border-bottom: 1px solid #dee;
 }
 
 footer {
+  background-image: url("../images/background2.jpg");
   clear: both;
   color: #333;
   font-size: 18px;
+  padding: 0.5em;
+  text-align: center;
+  color: #644;
 }
 
 article img {
