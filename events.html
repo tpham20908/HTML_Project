@@ -23,10 +23,10 @@
 
   <main>
     <form method="GET">
-      <h1>Buy Tickets to the Web Developer Gala in John Abbott College</h1>
+      <h1>Buy Tickets to the Web Developer Gala at John Abbott College</h1>
       <p>Tickets are $10 each. Dinner packages are an extra $5. All fields are require.</p>
       <fieldset>
-        <legend>Tickets and Add-ons</legend>
+        <legend><h3>Tickets and Add-ons</h3></legend>
 
         <p>
           <label for="quantity">Number of Tickets</label><span class="help"> (Limit 8)</span>
@@ -41,7 +41,7 @@
       </fieldset>
 
       <fieldset>
-        <legend>Payment</legend>
+        <legend><h3>Payment</h3></legend>
 
         <p>
           <label for="ccn">Credit Card Number</label>
@@ -57,7 +57,7 @@
       </fieldset>
 
       <fieldset>
-        <legend>Billing Address</legend>
+        <legend><h3>Billing Address</h3></legend>
 
         <p>
           <label for="name">Name</label>
@@ -84,6 +84,8 @@
           <input type="text" id="postal" name="postal" placeholder="H1T3H6" pattern="^(?<full>(?<part1>[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1})(?:[ ](?=\d))?(?<part2>\d{1}[A-Z]{1}\d{1}))$" size="6" required>
         </p>
       </fieldset>
+
+      <br />
 
       <button type="submit">Buy Tickets</button>
     </form>

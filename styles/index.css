@@ -61,17 +61,12 @@ section {
 aside {
   width: 34%;
   float: left;
-  margin: 0.5% 0 0.5% 2.5%;
-}
-
-aside article {
-  border-bottom: 1px solid #dee;
+  margin: 3% 0 0.5% 2.5%;
 }
 
 footer {
   background-image: url("../images/background2.jpg");
   clear: both;
-  color: #333;
   font-size: 18px;
   padding: 0.5em;
   text-align: center;
@@ -87,3 +82,5 @@ article div {
   width: 58%;
   display: inline-block;
 }
+
+.nhl_table { width: 100%; }
