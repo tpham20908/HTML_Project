@@ -11,12 +11,10 @@ body {
   background-image: url("../images/background.jpg");
 }
 
-#topHeader {
+.topHeader {
   width: 100%;
-  text-align: center;
-  margin-bottom: 0px;
+  height: 150px;
 }
-
 
 #topnav {
   margin-top: 0px;

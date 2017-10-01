@@ -11,10 +11,9 @@ body {
   background-image: url("../images/background.jpg");
 }
 
-#topHeader {
+.topHeader {
   width: 100%;
-  text-align: center;
-  margin-bottom: 0px;
+  height: 150px;
 }
 
 
@@ -54,15 +53,15 @@ body {
 }
 
 section {
-  width: 64%;
+  width: 62%;
   float: left;
-  margin: 0.5%;
+  margin: 0.5% 0.5% 0.5% 0;
 }
 
 aside {
   width: 34%;
   float: left;
-  margin: 0.5%
+  margin: 0.5% 0 0.5% 2.5%;
 }
 
 aside article {
@@ -79,7 +78,7 @@ footer {
   color: #644;
 }
 
-article img {
+.article_img {
   width: 40%;
   display: inline-block;
 }

@@ -7,14 +7,14 @@
   <link type="text/css" rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-  <header id="topHeader">
-    <img src="images/Bannerv1.jpg" alt="Lorem Ipsum banner" width="100%" height="150px" />
+  <header>
+    <img class="topHeader" src="images/Bannerv1.jpg" alt="Lorem Ipsum banner"/>
   </header>
 
   <nav id="topnav">
     <ul>
       <li><a class="active" href="index.html">Home</a></li>
-      <li><a class="topa" href="news.html">Breaking News</a></li>
+      <li><a class="topa" href="breaking_news.html">Breaking News</a></li>
       <li><a class="topa" href="events.html">Events</a></li>
       <li><a class="topa" href="about.html">About</a></li>
       <li><a class="topa" href="contact.html">Contact</a></li>
@@ -30,28 +30,28 @@
       </header>
       <articles>
         <article>
-          <img src="images/article-img.jpg" alt="news">
+          <img class="article_img" src="images/article-img.jpg" alt="news">
           <div class="articleText">
             <a href="#"><h4>Phasellus hendrerit, ante et tempor cursus, quam sem aliquet ligula</h4></a>
             <p>Sed eget posuere ante. Sed ut feugiat est, laoreet congue sem. Nam varius tellus vehicula nibh cursus sollicitudin. Donec ut augue fermentum, bibendum justo sed, vehicula ipsum. Pellentesque nisl tellus, feugiat id pellentesque et, cursus at arcu.</p>
           </div>
         </article>
         <article>
-          <img src="images/article2-img.jpg" alt="">
+          <img class="article_img" src="images/article2-img.jpg" alt="">
           <div class="articleText">
             <a href="#"><h4>Phasellus hendrerit, ante et tempor cursus, quam sem aliquet ligula</h4></a>
             <p>Sed eget posuere ante. Sed ut feugiat est, laoreet congue sem. Nam varius tellus vehicula nibh cursus sollicitudin. Donec ut augue fermentum, bibendum justo sed, vehicula ipsum. Pellentesque nisl tellus, feugiat id pellentesque et, cursus at arcu.</p>
           </div>
         </article>
         <article>
-          <img src="images/article1-img.jpg" alt="">
+          <img class="article_img" src="images/article1-img.jpg" alt="">
           <div class="articleText">
             <a href="#"><h4>Phasellus hendrerit, ante et tempor cursus, quam sem aliquet ligula</h4></a>
             <p>Sed eget posuere ante. Sed ut feugiat est, laoreet congue sem. Nam varius tellus vehicula nibh cursus sollicitudin. Donec ut augue fermentum, bibendum justo sed, vehicula ipsum. Pellentesque nisl tellus, feugiat id pellentesque et, cursus at arcu.</p>
           </div>
         </article>
         <article>
-          <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="">
+          <img class="article_img" src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="">
           <div class="articleText">
             <a href="#"><h4>Phasellus hendrerit, ante et tempor cursus, quam sem aliquet ligula</h4></a>
             <p>Sed eget posuere ante. Sed ut feugiat est, laoreet congue sem. Nam varius tellus vehicula nibh cursus sollicitudin. Donec ut augue fermentum, bibendum justo sed, vehicula ipsum. Pellentesque nisl tellus, feugiat id pellentesque et, cursus at arcu.</p>
@@ -61,8 +61,47 @@
     </section>
 
     <aside>
+      <!-- This is Jian part -->
       <article id="weather">
-        <p>This zone is for Weather</p>
+        <table style="border:1px solid white; border-radius:5px;">
+          <thead>
+            <tr>
+              <th style="text-align:center; font-size:18px;" colspan="5">Weather</th>
+            </tr>
+          </thead>
+          <tr>
+            <td style="text-align:center;border-top:1px solid white;border-right:1px solid white;">Sunday <br />Oct. 1</td>
+            <td style="text-align:center;border-top:1px solid white;border-right:1px solid white;">Monday <br />Oct. 2</td>
+            <td style="text-align:center;border-top:1px solid white;border-right:1px solid white;">Tuesday <br />Oct. 3</td>
+            <td style="text-align:center;border-top:1px solid white;border-right:1px solid white;">Wednesday <br />Oct. 4</td>
+            <td style="text-align:center;border-top:1px solid white;">Thursday <br />Oct. 5</td>
+          </tr>
+          <tr>
+            <td style="text-align:center;border-right:1px solid white;">
+              <img src="images/sunny.png" />
+            </td>
+            <td style="text-align:center;border-right:1px solid white;">
+              <img src="images/rain.png" />
+            </td>
+            <td style="text-align:center;border-right:1px solid white;">
+              <img src="images/sunny.png" />
+            </td>
+            <td style="text-align:center;border-right:1px solid white;">
+              <img src="images/cloudy.png" />
+            </td>
+            <td  style="text-align:center;">
+              <img src="images/sunny.png" />
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align:center;border-right:1px solid white;">18<sup>o</sup></td>
+            <td style="text-align:center;border-right:1px solid white;">19<sup>o</sup></td>
+            <td style="text-align:center;border-right:1px solid white;">22<sup>o</sup></td>
+            <td style="text-align:center;border-right:1px solid white;">25<sup>o</sup></td>
+            <td style="text-align:center;">18<sup>o</sup></td>
+          </tr>
+        </table>
+        <!-- Jian -->
       </article>
       <article id="spotlight">
         <p>This zone is for Spotlight</p>
@@ -82,7 +121,7 @@
             <tbody>
               <tr>
                 <td>
-                  <img src="images/panthers.png" alt="panthers" width="10px">Panthers
+                  <img src="images/panthers.png" alt="panthers" width="20px">Panthers
                 </td>
                 <td>82</td>
                 <td>47</td>
@@ -92,7 +131,7 @@
               </tr>
               <tr>
                 <td>
-                  <img src="images/lightning.png" alt="lightning" width="10px">Lightning
+                  <img src="images/lightning.png" alt="lightning" width="20px">Lightning
                 </td>
                 <td>82</td>
                 <td>46</td>
@@ -102,7 +141,7 @@
               </tr>
               <tr>
                 <td>
-                  <img src="images/redwings.png" alt="redwings" width="10px">Red Wings
+                  <img src="images/redwings.png" alt="redwings" width="20px">Red Wings
                 </td>
                 <td>82</td>
                 <td>41</td>
@@ -112,7 +151,7 @@
               </tr>
               <tr>
                 <td>
-                  <img src="images/bruins.png" alt="bruins" width="10px">Bruins
+                  <img src="images/bruins.png" alt="bruins" width="20px">Bruins
                 </td>
                 <td>82</td>
                 <td>42</td>
@@ -122,7 +161,7 @@
               </tr>
               <tr>
                 <td>
-                  <img src="images/senators.png" alt="senators" width="10px">Senators
+                  <img src="images/senators.png" alt="senators" width="20px">Senators
                 </td>
                 <td>82</td>
                 <td>38</td>

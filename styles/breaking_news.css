@@ -8,15 +8,13 @@
 body {
   width: 930px;
   margin: 12px auto;
-  background-image: url("../images/background.jpg");
+  background-color: white;  /* not quite /url("../images/background.jpg"); */
 }
 
-#topHeader {
+.topHeader {
   width: 100%;
-  text-align: center;
-  margin-bottom: 0px;
+  height: 150px;
 }
-
 
 #topnav {
   margin-top: 0px;
@@ -57,8 +55,35 @@ main {
   min-height: 930px;
 }
 
-.construction {
-  width: 50%;
+body {
+  border: 0.5px solid gray;
+  border-top: none;
+  border-bottom: none;
+}
+
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+#topH1 {
+  font-size: 50px;
+}
+
+#authorLink {
+  display: block;
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+#mainImg {
+  width: 60%;
+}
+
+figcaption {
+  font-size: 20px;
 }
 
 footer {
