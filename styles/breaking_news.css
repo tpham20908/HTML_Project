@@ -8,7 +8,6 @@
 body {
   width: 930px;
   margin: 12px auto;
-  background-color: white;  /* not quite /url("../images/background.jpg"); */
 }
 
 .topHeader {
