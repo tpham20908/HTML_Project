@@ -69,3 +69,16 @@ footer {
   text-align: center;
   color: #644;
 }
+
+/*below added by jian zhao, 2017-09-30*/
+.local_header {
+  text-align: center;
+}
+
+#content div {
+  margin: 0 auto;
+  padding-left: 280px;
+}
+div.textAlign{
+  text-align:center;
+}

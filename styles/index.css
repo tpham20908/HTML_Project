@@ -84,3 +84,34 @@ article div {
 }
 
 .nhl_table { width: 100%; }
+
+/*below added by jian zhao, 2017-09-30*/
+table.weathertb {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#weather table th {
+    text-align: center;
+    font-size: 18px;
+}
+
+.weatherWeekTD {
+    text-align: center;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+}
+
+td.borderTop {
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+td.borderRight {
+    text-align: center;
+    border-right: 1px solid white;
+}
+td.textAlign {
+    text-align: center;
+}
+.borderRight img, .textAlign img { width: 90%; }
