@@ -54,6 +54,29 @@ main {
   min-height: 930px;
 }
 
+h1 {
+  font-family: Georgia;
+  color: #466;
+  font-size: 2.5em;
+  padding-top: 50px;
+}
+
+h2 {
+  font-family: Georgia;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(45, 45, 55, 0.7);
+  font-size: 2em;
+  line-height: 24px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+p {
+  font-family: Helvetica;
+  color: #345;
+  line-height: 1.3em;
+}
+
 .topHead img {
   width: 70%;
   float: left;
@@ -93,14 +116,16 @@ main {
 
 #chris img {
   width: 60%;
-  transform: rotate(3deg);
+  transform: rotate(7deg);
   float: left;
   padding-right: 3em;
+  padding-bottom: 3em;
 }
 #jian img {
   width: 60%;
   transform: rotate(-5deg);
   float: right;
+  padding-bottom: 3em;
 }
 #tung img {
   width: 50%;
