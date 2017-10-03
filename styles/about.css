@@ -87,13 +87,26 @@ main {
 
 .bioStuff h2 { padding-top: 2em; }
 
-.bioStuff img {
-  width: 40%;
-  float: left;
+.bioStuff article {
+  margin: 4em;
 }
 
-.bioStuff article {
-  margin-bottom: 4em;
+#chris img {
+  width: 60%;
+  transform: rotate(3deg);
+  float: left;
+  padding-right: 3em;
+}
+#jian img {
+  width: 60%;
+  transform: rotate(-5deg);
+  float: right;
+}
+#tung img {
+  width: 50%;
+  transform: rotate(7deg);
+  float: right;
+  padding-bottom: 3em;
 }
 
 footer {
