@@ -8,7 +8,6 @@
 body {
   width: 930px;
   margin: 12px auto;
-  background-image: url("../images/background.jpg");
 }
 
 .topHeader {
@@ -52,16 +51,71 @@ body {
   background-color:#dee;
 }
 
-main {
-  min-height: 930px;
+section {
+  width: 66%;
+  float: left;
+  margin: 0.5% 0.5% 0.5% 0;
+}
+
+form { margin: 3em 2em; }
+
+fieldset { background-color: #efffee; }
+
+aside {
+  width: 30%;
+  float: left;
+  margin: 3% 0 0.5% 2.5%;
 }
 
 footer {
   background-image: url("../images/background2.jpg");
   clear: both;
-  color: #333;
   font-size: 18px;
   padding: 0.5em;
   text-align: center;
   color: #644;
 }
+
+.article_img {
+  width: 40%;
+  display: inline-block;
+}
+
+article div {
+  width: 58%;
+  display: inline-block;
+}
+
+.nhl_table { width: 100%; }
+
+/*below added by jian zhao, 2017-09-30*/
+table.weathertb {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#weather table th {
+    text-align: center;
+    font-size: 18px;
+}
+
+.weatherWeekTD {
+    text-align: center;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+}
+
+td.borderTop {
+    text-align: center;
+    border-top: 1px solid white;
+}
+
+td.borderRight {
+    text-align: center;
+    border-right: 1px solid white;
+}
+
+td.textAlign {
+    text-align: center;
+}
+.borderRight img, .textAlign img { width: 90%; }

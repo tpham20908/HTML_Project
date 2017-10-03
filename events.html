@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,78 +22,238 @@
   </nav>
 
   <main>
-    <form method="GET">
-      <h1>Buy Tickets to the Web Developer Gala at John Abbott College</h1>
-      <p>Tickets are $10 each. Dinner packages are an extra $5. All fields are require.</p>
-      <fieldset>
-        <legend><h3>Tickets and Add-ons</h3></legend>
+    <section>
+      <form method="GET">
+        <h1>Buy Tickets to the Web Developer Gala at JAC</h1>
+        <p>Tickets are $10 each. Dinner packages are an extra $5. All fields are require.</p>
+        <fieldset>
+          <legend><h3>Tickets and Add-ons</h3></legend>
 
-        <p>
-          <label for="quantity">Number of Tickets</label><span class="help"> (Limit 8)</span>
-          <input type="number" id="quantity" name="quantity" value="1" step="1" min="1" max="8" required>
-        </p>
+          <p>
+            <label for="quantity">Number of Tickets</label><span class="help"> (Limit 8)</span>
+            <input type="number" id="quantity" name="quantity" value="1" step="1" min="1" max="8" required>
+          </p>
 
-        <p>
-          <label for="quantity">Dinner Packages</label>
-          <span class="help">(Serves 2)</span>
-          <input type="number" id="quantity" name="quantity" value="1" step="1" min="1" max="8" required>
-        </p>
-      </fieldset>
+          <p>
+            <label for="quantity">Dinner Packages</label>
+            <span class="help">(Serves 2)</span>
+            <input type="number" id="quantity" name="quantity" value="1" step="1" min="1" max="8" required>
+          </p>
+        </fieldset>
 
-      <fieldset>
-        <legend><h3>Payment</h3></legend>
+        <fieldset>
+          <legend><h3>Payment</h3></legend>
 
-        <p>
-          <label for="ccn">Credit Card Number</label>
-          <span class="help">No spaces or dashes, please.</span>
-          <input type="text" id="ccn" name="ccn" placeholder="1111222233334444" maxlength="16" size="16" required>
-        </p>
+          <p>
+            <label for="ccn">Credit Card Number</label>
+            <span class="help">No spaces or dashes, please.</span>
+            <input type="text" id="ccn" name="ccn" placeholder="1111222233334444" maxlength="16" size="16" required>
+          </p>
 
-        <p>
-          <label for="expiration">Expiration date</label>
-          <span class="help"><abbr title="Two-digit month">MM</abbr>/<abbr title="Four-digit Year">YYYY</abbr></span>
-          <input type="text" id="expiration" name="expiration" placeholder="01/2020" maxlength="7" size="7" required>
-        </p>
-      </fieldset>
+          <p>
+            <label for="expiration">Expiration date</label>
+            <span class="help"><abbr title="Two-digit month">MM</abbr>/<abbr title="Four-digit Year">YYYY</abbr></span>
+            <input type="text" id="expiration" name="expiration" placeholder="01/2020" maxlength="7" size="7" required>
+          </p>
+        </fieldset>
 
-      <fieldset>
-        <legend><h3>Billing Address</h3></legend>
+        <fieldset>
+          <legend><h3>Billing Address</h3></legend>
 
-        <p>
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" placeholder="ex: John Doe" size="40" required>
-        </p>
+          <p>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="ex: John Doe" size="40" required>
+          </p>
 
-        <p>
-          <label for="street_address">Street Address</label>
-          <input type="text" id="street_address" name="street_address" placeholder="ex: 1234 Main Street, Apt 4" size="40" required>
-        </p>
+          <p>
+            <label for="street_address">Street Address</label>
+            <input type="text" id="street_address" name="street_address" placeholder="ex: 1234 Main Street, Apt 4" size="40" required>
+          </p>
 
-        <p>
-          <label for="city">City</label>
-          <input type="text" id="city" name="city" placeholder="ex: Montreal" required>
-        </p>
+          <p>
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="ex: Montreal" required>
+          </p>
 
-        <p>
-          <label for="province">Province</label>
-          <input type="text" id="province" name="province" placeholder="QC" maxlength="2" pattern="[A-W]{2}" size="2" required>
-        </p>
+          <p>
+            <label for="province">Province</label>
+            <input type="text" id="province" name="province" placeholder="QC" maxlength="2" pattern="[A-W]{2}" size="2" required>
+          </p>
 
-        <p>
-          <label for="postal">Postal</label>
-          <input type="text" id="postal" name="postal" placeholder="H1T3H6" pattern="^(?<full>(?<part1>[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1})(?:[ ](?=\d))?(?<part2>\d{1}[A-Z]{1}\d{1}))$" size="6" required>
-        </p>
-      </fieldset>
+          <p>
+            <label for="postal">Postal</label>
+            <input type="text" id="postal" name="postal" placeholder="H1T3H6" pattern="^(?<full>(?<part1>[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1})(?:[ ](?=\d))?(?<part2>\d{1}[A-Z]{1}\d{1}))$" size="6" required>
+            </p>
+          </fieldset>
 
-      <br />
+          <br />
 
-      <button type="submit">Buy Tickets</button>
-    </form>
+          <button type="submit">Buy Tickets</button>
+        </form>
+      </section>
 
-  </main>
+      <aside>
+        <!-- This is Jian part -->
+        <div id="weather">
+          <table class="weathertb">
+            <thead>
+              <tr>
+                <th colspan="5">Weather</th>
+              </tr>
+            </thead>
+            <tr>
+              <td class="weatherWeekTD">Sun<br />Oct. 1</td>
+              <td class="weatherWeekTD">Mon<br />Oct. 2</td>
+              <td class="weatherWeekTD">Tue<br />Oct. 3</td>
+              <td class="weatherWeekTD">Wed<br />Oct. 4</td>
+              <td class="borderTop">Thu<br />Oct. 4</td>
+            </tr>
+            <tr>
+              <td class="borderRight">
+                <img src="images/sunny.png" alt="a image of sunny." title="a image of sunny." />
+              </td>
+              <td class="borderRight">
+                <img src="images/rain.png" alt="a image of rain." title="a image of rain." />
+              </td>
+              <td class="borderRight">
+                <img src="images/sunny.png" alt="a image of sunny." title="a image of sunny." />
+              </td>
+              <td class="borderRight">
+                <img src="images/cloudy.png" alt="a image of cloudy." title="a image of cloudy." />
+              </td>
+              <td class="textAlign">
+                <img src="images/sunny.png" alt="a image of sunny." title="a image of sunny." />
+              </td>
+            </tr>
+            <tr>
+              <td class="borderRight">18<sup>o</sup></td>
+              <td class="borderRight">19<sup>o</sup></td>
+              <td class="borderRight">22<sup>o</sup></td>
+              <td class="borderRight">17<sup>o</sup></td>
+              <td class="textAlign">25<sup>o</sup></td>
+            </tr>
+          </table>
+        </div>
+        <!-- Jian -->
+        <article>
+          <table class="nhl_table">
+            <caption>
+              <h3>NHL Standings</h3>
+            </caption>
+            <colgroup style="width: 50%">
+              <col span="1" style="background-color: #edd">
+              <col span="5" style="background-color: #dee; width: 10%">
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Atlantic Division</th>
+                <th>GP</th>
+                <th>W</th>
+                <th>L</th>
+                <th>OTL</th>
+                <th>Pts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <img src="images/panthers.png" alt="panthers" style="width: 20px">Panthers
+                </td>
+                <td>82</td>
+                <td>47</td>
+                <td>26</td>
+                <td>9</td>
+                <td>103</td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/lightning.png" alt="lightning" style="width: 20px">Lightning
+                </td>
+                <td>82</td>
+                <td>46</td>
+                <td>31</td>
+                <td>5</td>
+                <td>97</td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/redwings.png" alt="redwings" style="width: 20px">Red Wings
+                </td>
+                <td>82</td>
+                <td>41</td>
+                <td>30</td>
+                <td>11</td>
+                <td>93</td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/bruins.png" alt="bruins" style="width: 20px">Bruins
+                </td>
+                <td>82</td>
+                <td>42</td>
+                <td>31</td>
+                <td>9</td>
+                <td>93</td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/senators.png" alt="senators" style="width: 20px">Senators
+                </td>
+                <td>82</td>
+                <td>38</td>
+                <td>35</td>
+                <td>9</td>
+                <td>85</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+        <article id="schedule">
+          <table style="width: 100%">
+            <caption><h3>CBC Radio1 88.5FM</h3></caption>
+            <colgroup style="width: 50%">
+              <col span="1" style="background-color: #ddd">
+              <col span="1" style="background-color: #eee">
+            </colgroup>
 
-  <footer>
-    <p>No copyright !&copy;2017 LEABN-IPD12-ChrisDaldalian-JianZhao-TungPham. No right reserved.</p>
-  </footer>
-</body>
-</html>
+            <tbody>
+              <tr>
+                <th>03:00PM</th>
+                <td>Homerun</td>
+              </tr>
+              <tr>
+                <th>06:00PM</th>
+                <td>The World at Six</td>
+              </tr>
+              <tr>
+                <th>06:30PM</th>
+                <td>As It Happens</td>
+              </tr>
+              <tr>
+                <th>08:00PM</th>
+                <td>The Current Review</td>
+              </tr>
+              <tr>
+                <th>09:00PM</th>
+                <td>Ideas</td>
+              </tr>
+              <tr>
+                <th>10:00PM</th>
+                <td>q(Radio)</td>
+              </tr>
+              <tr>
+                <th>11:00PM</th>
+                <td>The Story From Here</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </aside>
+
+    </main>
+
+    <footer>
+      <p>No copyright !&copy;2017 LEABN-IPD12-ChrisDaldalian-JianZhao-TungPham. No right reserved.</p>
+    </footer>
+  </body>
+  </html>

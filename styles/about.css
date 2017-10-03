@@ -8,7 +8,6 @@
 body {
   width: 930px;
   margin: 12px auto;
-  background-image: url("../images/background.jpg");
 }
 
 .topHeader {
@@ -55,8 +54,46 @@ main {
   min-height: 930px;
 }
 
-.construction {
-  width: 50%;
+.topHead img {
+  width: 70%;
+  float: left;
+}
+
+.topHead ul {
+  width: 25%;
+  float: left;
+}
+
+.aboutUs {
+  clear: both;
+  margin-bottom: 3em;
+}
+
+.left {
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+}
+
+.right {
+  width: 48%;
+  float: right;
+  margin-left: 2%;
+}
+
+.bioStuff {
+  clear: both;
+}
+
+.bioStuff h2 { padding-top: 2em; }
+
+.bioStuff img {
+  width: 40%;
+  float: left;
+}
+
+.bioStuff article {
+  margin-bottom: 4em;
 }
 
 footer {
