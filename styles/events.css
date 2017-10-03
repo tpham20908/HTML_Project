@@ -119,3 +119,34 @@ td.textAlign {
     text-align: center;
 }
 .borderRight img, .textAlign img { width: 90%; }
+
+#weather table td {
+    width: 65px;
+    height: 65px;
+}
+
+.sunny {
+    width: 50px;
+    background-image: url("../images/react-animated-weather.gif");
+    background-position: -67px -40px;
+    background-repeat: no-repeat;
+}
+
+.rain {
+    width: 50px;
+    background-image: url("../images/react-animated-weather.gif");
+    background-position: -133px -105px;
+    background-repeat: no-repeat;
+}
+
+.cloudy {
+    width: 50px;
+    background-image: url("../images/react-animated-weather.gif");
+    background-position: -201px -35px;
+    background-repeat: no-repeat;
+}
+
+.latest_news_text {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:22px;
+}

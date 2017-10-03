@@ -35,29 +35,29 @@
       <div id="content">
         <div>
           <br />
-          <label>Mailing Address:</label>
-          <label>1234 somestreet Montreal, Quebec Canada H2A 5R5</label>
+          <span>Mailing Address:</span>
+          <span>1234 somestreet Montreal, Quebec Canada H2A 5R5</span>
         </div>
         <div>
           <br />
-          <label>Phone Number: (***) 123-6789</label>
+          <span>Phone Number: (***) 123-6789</span>
           <br />
-          <label>Fax: (514) 234-5678</label>
+          <span>Fax: (514) 234-5678</span>
         </div>
         <div>
           <br />
-          <label>Email: </label>
+          <span>Email: </span>
           <a href="mailto:someone@example.com" target="_top">Send Mail</a>
         </div>
         <br />
         <div>
-          <label class="title">Comment:</label><br />
-          <label> Name*:</label><br>
-          <input type="text" name="name" maxlength="30" required="required"><br>
-          <label> E-mail*:</label><br>
-          <input type="email" name="mail" maxlength="40" required="required"><br>
-          <label>Comment:</label><br>
-          <textarea name="content" rows="10" cols="50"></textarea>
+          <span class="title">Comment:</span><br />
+          <label for="name"> Name*:</label><br>
+          <input type="text" id="name" name="name" maxlength="30" required="required"><br>
+          <label for="mail"> E-mail*:</label><br>
+          <input type="email" id="mail" name="mail" maxlength="40" required="required"><br>
+          <label for="comment">Comment:</label><br>
+          <textarea  id="comment" name="comment" rows="10" cols="50"></textarea>
           <br /><br />
           <input type="submit" value="Send">
           <input type="reset" value="Reset">
